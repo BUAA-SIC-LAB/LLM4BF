@@ -1,4 +1,4 @@
-# LLM4BF-LLM for ISAC Beamforming
+# LLM4BF: LLM for ISAC Beamforming
 
 Official repository for paper **From General LLM to Specialized Beamforming for Low-Altitude ISAC Networks: A LoRA-Based Multi-Expert Framework**.
 
