@@ -53,8 +53,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--train_embed_tokens', action='store_true', default=False,
                         help='Whether to train the embed_tokens or not')
     parser.add_argument('--output_dir', type=str, default='./history', help='Output directory name')
-    parser.add_argument('--resume_from_checkpoint', type=str, default=None,
-                        help='./history/20251218_001834/output_alpha16_r16_seq2048_batch16_epoch4/checkpoint-2000')
+    parser.add_argument('--resume_from_checkpoint', type=str, default=None, help='Resume the model from checkpoint')
+
 
     args = parser.parse_args()
 
